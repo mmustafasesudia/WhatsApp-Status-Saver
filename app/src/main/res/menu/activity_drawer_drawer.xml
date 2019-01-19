@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_simple"
+            android:icon="@drawable/ic_action_filter_none"
+            android:title="WhatsApp" />
+
+        <item
+            android:id="@+id/nav_gb"
+            android:icon="@drawable/ic_action_gb_whatsapp"
+            android:title="GB WhstaApp" />
+
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_action_filter"
+            android:title="WhatsApp Business" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools"
+            android:visible="false" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_action_rate"
+                android:title="Rate WhatsApp Status Saver" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_action_how_its_work"
+                android:title="How It Works" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_share"
+                android:title="Recommended to Friend" />
+
+        </menu>
+    </item>
+
+</menu>

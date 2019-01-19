@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WhatsApp Status Saver</string>
+    <string name="title_activity_drawer">WhatsAppStatus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="facebook_adds_id">2246236638923217_2247413932138821</string>
+    <string name="facebook_adds_id_ins">2246236638923217_2249139498632931</string>
+
+    <!--   <string name="facebook_app_id">2246236638923217</string>
+       <string name="fb_login_protocol_scheme">2246236638923217</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of WhatsApp Statuses Saver is available. Please update to version\s</string>
+    <string name="youAreNotUpdatedMessage1">\s now</string>
+    <string name="update">Update</string>
+</resources>
