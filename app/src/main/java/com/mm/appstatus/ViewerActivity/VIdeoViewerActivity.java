@@ -63,18 +63,21 @@ public class VIdeoViewerActivity extends AppCompatActivity implements Subject {
         }
         MediaController mediaController = new MediaController(this);
         video_view.setMediaController(mediaController);
-        video_view.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mp) {
-                video_view.seekTo(position);
-                if (position == 0) {
-                    video_view.start();
-                } else {
-                    video_view.resume();
+        try {
+            video_view.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer mp) {
+                    video_view.seekTo(position);
+                    if (position == 0) {
+                        video_view.start();
+                    } else {
+                        video_view.resume();
 
+                    }
                 }
-            }
-        });
+            });
+        } catch (Exception ex) {
+        }
 
         if (type.equals("0")) {
             path = Config.WhatsAppSaveStatus;

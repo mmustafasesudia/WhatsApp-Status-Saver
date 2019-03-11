@@ -40,6 +40,10 @@
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_action_share"
                 android:title="Recommended to Friend" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="Privacy Policy" />
 
         </menu>
     </item>

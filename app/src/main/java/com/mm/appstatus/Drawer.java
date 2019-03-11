@@ -254,6 +254,14 @@ public class Drawer extends AppCompatActivity
 
         } else if (id == R.id.nav_rate) {
             rateUsOnPlayStore();
+        } else if (id == R.id.nav_privacy_policy) {
+            try {
+                Uri uri = Uri.parse("http://itehadmotors.com/privacy_policy.html"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            } catch (Exception ex) {
+
+            }
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
